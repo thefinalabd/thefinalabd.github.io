@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content = "width = device-width, inital-scale = 1.0">
+    <title>Portfolio</title>
+    <!-- https://commons.wikimedia.org/wiki/File:The_Athletic_favicon.png -->
+    <link rel="icon" href="Media/Favicon.png">
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src = "Media/Favicon.png" height="50" alt = "icon"></a>
+            <ul class = "links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href = "gallery.html">Gallery</a></li>
+                <li><a href = "projects.html">Projects</a></li>
+                <li><a href = "feedback.html">Feedback</a></li>
+            </ul>
+    </nav>
+    <div id = "form-container">
+        <form id = "form" action="#">
+            <h1>Feedback</h1>
+            <div class = "input-container">
+                <label for = "name">Name<span style = "color: red">*</span>:</label>
+                <input type="text" id = "name" name = "name" placeholder = "Enter your name">
+                <p id = "name-error"></p>
+            </div>
+            <div class = "input-container">
+                <label for = "email">Email<span style = "color: red">*</span>:</label>
+                <input type="email" id = "email" name = "email" placeholder = "Enter your email">
+                <p id = "email-error"></p>
+            </div>
+            <div class = "input-container">
+                <label for = "phone">Phone Number<span style = "color: red">*</span>:</label>
+                <input type="tel" id = "phone" name = "phone" placeholder="123-456-7890" pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                <p id = "number-error"></p>
+            </div>
+            <div class = "input-container">
+                <label></label>
+            </div>
+            <div class = "input-container">
+                <label for = "contact">Prefered contact method?<span style = "color: red">*</span></label>
+                <label for = "contact-email">Email</label>
+                <input type = "radio" id = "contact-email" value = "contact-email" name = "contact">
+                <label for = "contact-phone">Phone</label>
+                <input type = "radio" id = "contact-phone" value = "contact-phone" name = "contact">
+                <p id = "contact-error"></p>
+            </div>
+            <div class = "input-container">
+                <label for = "yes-no">Did you like the website?<span style = "color: red">*</span></label>
+                <input type = "radio" id = "yes" value = "yes" name = "yes-no">
+                <label for="yes">Yes</label>
+                <input type = "radio" id = "no" value = "no" name = "yes-no">
+                <label for = "no">No</label>
+                <p id = "choice-error"></p>
+            </div>
+            <div class = "input-container">
+                <label for = "suggestion">Any suggestion?</label>
+                <textarea id = "suggestion" rows = "5" cols = "30" placeholder = "Write here"></textarea>
+            </div>
+            <div class = "button-container">
+                <input id = "submit-button" type = "submit" value = "submit">
+            </div>
+            <p><span style = "color: red">*</span> means that the field is required</p>
+        </form>
+    </div>
+    <footer>
+        <h2>Contact me here</h2>
+        <div class = "footer-links">
+            <ul>
+                <!--https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png-->
+                <li><a href = "https://www.linkedin.com/in/abdullah-arif-035a3a28a/"><img src = "Media/LinkedIn_icon.svg.png" alt = "linked in"></a></li>
+                <!--https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png-->
+                <li><a href = "https://www.instagram.com/_abdu1lah/"><img src ="Media/Instagram_logo_2016.svg.webp" height="25" alt = "instagram"></a></li>
+            </ul>
+        </div>
+        Choose your theme
+        <button id = "light-button">Light</button>
+        <button id = "dark-button">Dark</button>
+        </footer>   
+        <script src = "script.js"></script> 
+</body>
+</html>

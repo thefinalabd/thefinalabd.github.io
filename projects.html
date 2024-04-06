@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My projects</title>
+    <!-- https://commons.wikimedia.org/wiki/File:The_Athletic_favicon.png -->
+    <link rel = "icon" href = "Media/Favicon.png">
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src = "Media/Favicon.png" height="50" alt = "icon"></a>
+        <ul class = "links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href = "gallery.html">Gallery</a></li>
+            <li><a href = "projects.html">Projects</a></li>
+            <li><a href = "feedback.html">Feedback</a></li>
+         </ul>
+    </nav>
+    <div class = "project">
+        <div class = "project-heading"><h1>My projects</h1></div>
+        <div class = "google-clone-heading">   
+            <p style="font-size: 50px; text-align: center;" >         
+                <span style = "color: blue;">G</span>
+                <span style = "color: red;">o</span>
+                <span style="color: yellow;">o</span>
+                <span style="color: blue;">g</span>
+                <span style="color: green;">l</span>
+                <span style = "color: red;">e</span><br>
+                clone
+            </p>     
+        </div>
+        <div class = "project-description">
+            <p>Last summer as a part of my harvard's CS50 course I was assigned to complete a project where I was tasked to make a clone of google's search engine using HTML and CSS. The website consisted of 3 pages.</p>
+        </div>  
+        <div class = "google-clone-main">
+            <ol>
+                <li id = "list1"><img src = "Media/Search.jpg" height="300" alt = "Main page"></li>
+                <li><p id = "text1">This is the index page of the website where you can enter something you want to search and it will take you to that reference.</p></li>
+                <li id = "list2"><img src = "Media/Images.jpg" height = "300" alt = "Images page"></li>
+                <li><p id = "text2">On this page you can search for some image you will be redirected to a google image showing the content you searched for.</p></li>
+                <li id = "list3"><img src = "Media/Advanced.jpg" height="300" alt = "Advanced"></li>
+                <p id = "text3">This is the advanced search page where you can search by specific phrases or words</p>
+            </ol> 
+        </div>
+        <div class = "table">
+            <table>
+                <tr colspan = 2>
+                    <td id = "table-head"><p>The languages I used for this project</p></td>
+                </tr>
+                <tr>
+                    <!--https://en.wikipedia.org/wiki/HTML5-->
+                    <td><a href = "https://en.wikipedia.org/wiki/HTML5"><img src = "./Media/HTML5.png" height="100" alt = "HTML5"></a></td>
+                    <!--https://en.wikipedia.org/wiki/CSS-->
+                    <td><a href = "https://en.wikipedia.org/wiki/CSS"><img src = "Media/CSS3.png" height = 100 alt = "CSS3"></a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <h2>Contact me here</h2>
+        <div class = "footer-links">
+            <ul>
+                <!--https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png-->
+                <li><a href = "https://www.linkedin.com/in/abdullah-arif-035a3a28a/"><img src = "Media/LinkedIn_icon.svg.png" alt = "linked in"></a></li>
+                <!--https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png-->
+                <li><a href = "https://www.instagram.com/_abdu1lah/"><img src ="Media/Instagram_logo_2016.svg.webp" height="25" alt = "instagram"></a></li>
+            </ul>
+        </div>
+        Choose your theme
+        <button id = "light-button">Light</button>
+        <button id = "dark-button">Dark</button>
+    </footer> 
+    <script src = "script.js"></script> 
+</body>
+</html>

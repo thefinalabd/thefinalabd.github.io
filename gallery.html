@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My gallery</title>
+    <!-- https://commons.wikimedia.org/wiki/File:The_Athletic_favicon.png -->    
+    <link rel = "icon" href = "Media/Favicon.png">
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+        <nav>
+            <a href="index.html"><img src = "Media/Favicon.png" height="50" alt = "icon"></a>
+            <ul class = "links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href = "gallery.html">Gallery</a></li>
+                <li><a href = "projects.html">Projects</a></li>
+                <li><a href = "feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+        <div class = "gallery">
+            <div class = "gallery-heading">
+                <h1>My Gallery</h1>
+            </div>
+            <div class = "nature">
+                <img src = "Media/Garden.jpg" height = 400 alt = "Nature picture 1">
+                <img src = "Media/House.jpg" height="400" alt = "Nature picture 2">
+                <video controls height="400">
+                    <source src ="Media/Snow.mp4">
+                </video>
+            </div>
+            <div class = "aesthetic">
+                <img src = "Media/Aesthetic.jpg" height="400" alt="Aesthetic Picture 1">
+                <img src = "Media/Railway.jpg" height="400" alt = "Aesthetic Picture 2">
+                <!--https://youtube.com/shorts/MetM22pXPQ8-->
+                <iframe height="402" src="https://www.youtube.com/embed/MetM22pXPQ8" title="Edit" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+        <footer>
+            <h2>Contact me here</h2>
+            <div class = "footer-links">
+                <ul>
+                    <!--https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/2048px-LinkedIn_icon.svg.png-->
+                    <li><a href = "https://www.linkedin.com/in/abdullah-arif-035a3a28a/"><img src = "Media/LinkedIn_icon.svg.png" alt = "linked in"></a></li>
+                    <!--https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png-->
+                    <li><a href = "https://www.instagram.com/_abdu1lah/"><img src ="Media/Instagram_logo_2016.svg.webp" height="25" alt = "instagram"></a></li>
+                </ul>
+            </div>
+            Choose your theme
+            <button id = "light-button">Light</button>
+            <button id = "dark-button">Dark</button>
+        </footer>
+        <script src = "script.js"></script> 
+</body>
+</html>
